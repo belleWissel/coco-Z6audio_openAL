@@ -1,0 +1,23 @@
+#version 330
+ 
+in vec3 vPosition;
+in vec2 vTexCoord;
+ 
+uniform mat4 mModelMatrix;
+uniform mat4 mProjectionMatrix;
+
+ 
+out vec2 TexCoord0;
+
+// animated position:
+uniform vec3 vPositionOffset;
+
+vec3 trueVectorPosn;
+
+void main()
+{
+	trueVectorPosn = vPosition + vPositionOffset;
+
+	gl_Position = mProjectionMatrix * mModelMatrix * vec4(trueVectorPosn, 1.0);
+	TexCoord0 = vTexCoord;
+}

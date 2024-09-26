@@ -1,0 +1,26 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CBWCO_005Ccoco_002Dz6audio_002Dopenal_005CResources_005CforBinFolder_005CIntel_002ERealSense_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CBWCO_005Ccoco_002Dz6audio_002Dopenal_005CResources_005CforBinFolder_005CMeshomatic_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CBWCO_005Ccoco_002Dz6audio_002Dopenal_005CResources_005CforBinFolder_005COpenTK_002EOpenAL_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CBWCO_005Ccoco_002Dz6audio_002Dopenal_005CResources_005CforBinFolder_005Crealsense2_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CBWCO_005Ccoco_002Dz6audio_002Dopenal_005CResources_005CforBinFolder_005CSecondstoryCommon_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CBWCO_005Ccoco_002Dz6audio_002Dopenal_005CResources_005CforBinFolder_005CSocketIOClient_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CBWCO_005Ccoco_002Dz6audio_002Dopenal_005CResources_005CforBinFolder_005CWebSocket4Net_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CWorkshop_005CmarnoldSensorCtrlAzure_005Cresources_005Cfor_005Fbin_005Ffolder_005Ck4a_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CWorkshop_005CmarnoldSensorCtrlAzure_005CSensorControlApp_005Ck4a_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CWorkshop_005CmarnoldSensorCtrlRealsense_005CSensorControlApp_005CIntel_002ERealsense_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CWorkshop_005CopenTK3_005FAzure_005Cresources_005Cfor_005Fbin_005Ffolder_005Ck4a_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CWorkshop_005CopenTK3_005FAzure_005Cresources_005Cfor_005Fbin_005Ffolder_005Ck4a_002Elib/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CWorkshop_005CopenTK3_005FAzure_005Cresources_005Cfor_005Fbin_005Ffolder_005Ck4a_002Epdb/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CWorkshop_005CopenTK3_005FAzure_005Cresources_005Cfor_005Fbin_005Ffolder_005CK4AdotNet_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CWorkshop_005CopenTK3_005FAzure_005Cresources_005Cfor_005Fbin_005Ffolder_005CK4AdotNet_002Epdb/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CWorkshop_005CopenTK3_005FAzure_005Cresources_005Cfor_005Fbin_005Ffolder_005CK4AdotNet_002Exml/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CWorkshop_005CopenTK3_005FAzure_005Cresources_005Cfor_005Fbin_005Ffolder_005Ck4arecord_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CWorkshop_005CopenTK3_005FAzure_005Cresources_005Cfor_005Fbin_005Ffolder_005Ck4arecord_002Elib/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CWorkshop_005CopenTK3_005FAzure_005Cresources_005Cfor_005Fbin_005Ffolder_005Ck4arecord_002Epdb/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CWorkshop_005CopenTKAudioTest_005Cresources_005Cfor_005Fbin_005Ffolder_005COpenAL32_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CDEV_005CWorkshop_005CopenTKAudioTest_005Cresources_005COpenAl_005COpenTK_002EOpenAL_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CDEV_005CmarnoldSensorCtrlRealsense_005Cresources_005CrealSenseSDK_005Fmarnold_005Crelease_005CIntel_002ERealSense_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\DEV\Workshop\marnoldSensorCtrlRealsense\SensorControlApp\Intel.Realsense.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

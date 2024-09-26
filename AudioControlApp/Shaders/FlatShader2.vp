@@ -1,0 +1,19 @@
+#version 330
+
+uniform mat4 mModelMatrix;
+uniform mat4 mProjectionMatrix;
+
+// animated position:
+uniform vec3 vPositionOffset;
+
+// Incoming per vertex
+in vec3 vPosition;
+
+// local variable:
+vec3 vTrueVectorPosn;
+
+void main(void) 
+    { 
+		vTrueVectorPosn = vPosition + vPositionOffset;
+		gl_Position = mProjectionMatrix * mModelMatrix * vec4( vTrueVectorPosn, 1 );
+    }

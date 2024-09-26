@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DepthCameraPosnData>
+  <DepthCamera>
+    <Camera ID="3" />
+    <Position x="0" y="3587.57132346521" z="-2819.49957663794" />
+    <Rotation x="-120.476632170755" y="1" z="0" />
+  </DepthCamera>
+  <AdditionalOffsets>
+    <Position x="460" y="-3580" z="-60" />
+  </AdditionalOffsets>
+</DepthCameraPosnData>

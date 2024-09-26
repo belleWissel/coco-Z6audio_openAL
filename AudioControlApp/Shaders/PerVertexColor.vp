@@ -1,0 +1,23 @@
+#version 330
+uniform mat4 mModelMatrix;
+uniform mat4 mProjectionMatrix;
+
+// animated position:
+uniform vec3 vPositionOffset;
+
+// Incoming per vertex
+in vec3 vPosition;
+in vec4 vVaryColor;
+// color passed to frag shader
+out vec4 vVaryingColor;
+// local variable:
+vec3 vTrueVectorPosn;
+uniform vec4 fixedColorTest = vec4(1.0, 0.0, 0.0, 1.0);
+
+void main() 
+{
+	//this works vVaryingColor = fixedColorTest; 
+	//this doesnt work vVaryingColor = vVaryColor;
+	vTrueVectorPosn = vPosition + vPositionOffset;
+	gl_Position = mProjectionMatrix * mModelMatrix * vec4( vTrueVectorPosn, 1 );
+}

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CameraSettings>
+  <CameraActivation>
+    <Camera0 doActivate="true" />
+    <Camera1 doActivate="false" />
+    <Camera2 doActivate="false" />
+    <Camera3 doActivate="false" />
+  </CameraActivation>
+  <CameraDataFilters>
+    <!-- all measurements in mm -->
+    <!-- keystrike 'v' toggles filters -->
+    <PreCalibrationRangeFilter maxRangeMeasured ="5000" minRangeMeasured ="500" applyFilterAtLaunch="true"/>
+    <PostCalibrationFilter filterOutDataAbove="1010" filterOutDataBelow="-810" applyFilterAtLaunch="true"/>
+  </CameraDataFilters>
+  <SkeletalTracking>
+    <!-- prerequisite = CUDA driver and Azure Kinect Body Tracking SDK -->
+    <Activation doSenseSkeletons="false"/>
+  </SkeletalTracking>
+  <UserSensorGrid>
+    <!-- these values must match on the receiving end (client) -->
+    <GridSize>
+      <!-- all measurements in mm EXCEPT when using "globalPixelScale" (then they are in pixels, not mm) -->
+      <Width value="2200" />
+      <Height bottomEdge="-800" topEdge="1000" />
+      <Depth nearPlane="0.00" farPlane="1000" />
+    </GridSize>
+    <GridResolution>
+      <!--integers only-->
+      <WidthPixels value="120" />
+      <HeightPixels value="60" />
+      <DepthPixels value="60" />
+    </GridResolution>
+  </UserSensorGrid>
+  <CameraPhysicalOrientation>
+    <Camera0>
+      <Reversed mirrored="false" />
+      <Orientation isRotated90DegCW="false" isRotated90DegCCW="false" isUpsideDown="false" />
+    </Camera0>
+    <Camera1>
+      <Reversed mirrored="false" />
+      <Orientation isRotated90DegCW="false" isRotated90DegCCW="false" isUpsideDown="false" />
+    </Camera1>
+    <Camera2>
+      <Reversed mirrored="false" />
+      <Orientation isRotated90DegCW="false" isRotated90DegCCW="false" isUpsideDown="false" />
+    </Camera2>
+    <Camera3>
+      <Reversed mirrored="false" />
+      <Orientation isRotated90DegCW="false" isRotated90DegCCW="false" isUpsideDown="false" />
+    </Camera3>
+  </CameraPhysicalOrientation>
+</CameraSettings>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AudioSettings>
+    <MasterAudioSettings>
+        <MasterVolume ambientLevels ="0.4" duckedLevels ="0.15" buildLevels="0.60" highlightLevels="0.80"/>
+        <AmbientOverlap secondsOfOverlap ="12" />
+        <BuildupTiming secondsOfOverlap = "4" rampup ="6" rampdown="1.5" />
+        <HighlightTiming secondsOfOverlap = "4" rampup ="6" rampdown="1.5" />
+    </MasterAudioSettings>
+    <FileSettings>
+        <AmbientLoopFolder folder = "resources\\audioSamples\\Ambient_Loops\\" />
+        <BuildFolder folder = "resources\\audioSamples\\Pre_Engagement\\" />
+        <HighlightFolder folder = "resources\\audioSamples\\Full_Engagements\\" />
+    </FileSettings>
+    <PlaybackSettings>
+        <audioControl0>
+            <AudioDev id="0" />
+            <AmbientPlaylistChannel0>
+                <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_22_16bitPCM.wav" length="114" />
+                <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_02_16bitPCM.wav" length="111" />
+                <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_03_16bitPCM.wav" length="111" />
+                <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_04_16bitPCM.wav" length="105" />
+                <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_05_16bitPCM.wav" length="87" />
+                <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_06_16bitPCM.wav" length="77" />
+            </AmbientPlaylistChannel0>
+            <AmbientPlaylistChannel1>
+                <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_07_16bitPCM.wav" length="107" />
+                <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_08_16bitPCM.wav" length="108" />
+                <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_09_16bitPCM.wav" length="110" />
+                <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_10_16bitPCM.wav" length="110" />
+                <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_11_16bitPCM.wav" length="111" />
+                <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_12_16bitPCM.wav" length="71" />
+             </AmbientPlaylistChannel1>
+            <BuildList>
+                <VoiceFile type="build" filename="Pre_Engagement_01_16bitPCM.wav" length="72" />
+                <VoiceFile type="build" filename="Pre_Engagement_02_16bitPCM.wav" length="70" />
+            </BuildList>
+            <HighlightList>
+                <VoiceFile type="highlight" filename="Full_Engagment_01_16bitPCM.wav" length="21" />
+                <VoiceFile type="highlight" filename="Full_Engagment_02_16bitPCM.wav" length="18" />
+                <VoiceFile type="highlight" filename="Full_Engagment_03_16bitPCM.wav" length="17" />
+                <VoiceFile type="highlight" filename="Full_Engagment_04_16bitPCM.wav" length="20" />
+                <VoiceFile type="highlight" filename="Full_Engagment_05_16bitPCM.wav" length="23" />
+            </HighlightList>
+         </audioControl0>
+         <audioControl1>
+             <AudioDev id="1" />
+             <AmbientPlaylistChannel0>
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_13_16bitPCM.wav" length="79" />
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_14_16bitPCM.wav" length="83" />
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_15_16bitPCM.wav" length="109" />
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_16_16bitPCM.wav" length="95" />
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_17_16bitPCM.wav" length="90" />
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_18_16bitPCM.wav" length="96" />
+             </AmbientPlaylistChannel0>
+             <AmbientPlaylistChannel1>
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_19_16bitPCM.wav" length="90" />
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_20_16bitPCM.wav" length="112" />
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_21_16bitPCM.wav" length="112" />
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_22_16bitPCM.wav" length="112" />
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_23_16bitPCM.wav" length="112" />
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_24_16bitPCM.wav" length="112" />
+             </AmbientPlaylistChannel1>
+             <BuildList>
+                 <VoiceFile type="build" filename="Pre_Engagement_01_16bitPCM.wav" length="72" />
+                 <VoiceFile type="build" filename="Pre_Engagement_02_16bitPCM.wav" length="70" />
+             </BuildList>
+             <HighlightList>
+                 <VoiceFile type="highlight" filename="Full_Engagment_01_16bitPCM.wav" length="21" />
+                 <VoiceFile type="highlight" filename="Full_Engagment_02_16bitPCM.wav" length="18" />
+                 <VoiceFile type="highlight" filename="Full_Engagment_03_16bitPCM.wav" length="17" />
+                 <VoiceFile type="highlight" filename="Full_Engagment_04_16bitPCM.wav" length="20" />
+                 <VoiceFile type="highlight" filename="Full_Engagment_05_16bitPCM.wav" length="23" />
+             </HighlightList>
+         </audioControl1>
+         <audioControl2>
+             <AudioDev id="2" />
+             <AmbientPlaylistChannel0>
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_25_16bitPCM.wav" length="90" />
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_26_16bitPCM.wav" length="112" />
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_27_16bitPCM.wav" length="112" />
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_28_16bitPCM.wav" length="112" />
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_29_16bitPCM.wav" length="112" />
+                 <VoiceFile type="ambientLoop" filename="Mono_Ambient_Loop_30_16bitPCM.wav" length="112" />
+             </AmbientPlaylistChannel0>
+             <AmbientPlaylistChannel1>
+             </AmbientPlaylistChannel1>
+             <BuildList>
+                 <VoiceFile type="build" filename="Pre_Engagement_01_16bitPCM.wav" length="72" />
+                 <VoiceFile type="build" filename="Pre_Engagement_02_16bitPCM.wav" length="70" />
+             </BuildList>
+             <HighlightList>
+                 <VoiceFile type="highlight" filename="Full_Engagment_01_16bitPCM.wav" length="21" />
+                 <VoiceFile type="highlight" filename="Full_Engagment_02_16bitPCM.wav" length="18" />
+                 <VoiceFile type="highlight" filename="Full_Engagment_03_16bitPCM.wav" length="17" />
+                 <VoiceFile type="highlight" filename="Full_Engagment_04_16bitPCM.wav" length="20" />
+                 <VoiceFile type="highlight" filename="Full_Engagment_05_16bitPCM.wav" length="23" />
+             </HighlightList>
+         </audioControl2>
+     </PlaybackSettings>
+ </AudioSettings>

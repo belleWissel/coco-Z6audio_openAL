@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<audioSampleFiles>
+    <!-- wav filename and path. Must be 16bitPCM format (mono) .wav file -->
+    <!-- integer must be unique (right-most=0, left=highest number) see "reactiveAreasControl.xml" for number of available regions-->
+  <audioSample region="0" filePath="C:\\kiosk\\content\\resources\\audioSamples\\downloads\\basscopter.wav" />
+  <audioSample region="1" filePath="C:\\kiosk\\content\\resources\\audioSamples\\downloads\\communications-please.wav" />
+  <audioSample region="2" filePath="C:\\kiosk\\content\\resources\\audioSamples\\downloads\\computer-cowbellguy.wav" />
+  <audioSample region="3" filePath="C:\\kiosk\\content\\resources\\audioSamples\\downloads\\glissdown.wav" />
+  <audioSample region="4" filePath="C:\\kiosk\\content\\resources\\audioSamples\\downloads\\glissup.wav" />
+  <audioSample region="5" filePath="C:\\kiosk\\content\\resources\\audioSamples\\downloads\\siren-rubberband.wav" />
+  <audioSample region="6" filePath="C:\\kiosk\\content\\resources\\audioSamples\\downloads\\zap-to-crack.wav" />
+  <audioSample region="7" filePath="C:\\kiosk\\content\\resources\\audioSamples\\snare_mono_48000Hz_16-bitPCM.wav" />
+  <audioSample region="8" filePath="C:\\kiosk\\content\\resources\\audioSamples\\kick_mono_48000Hz_16-bitPCM.wav" />
+  <audioSample region="9" filePath="C:\\kiosk\\content\\resources\\audioSamples\\ding_mono_48000Hz_16bitPCM.wav" />
+  <audioSample region="10" filePath="C:\\kiosk\\content\\resources\\audioSamples\\ding_mono_48000Hz_16bitPCM.wav" />
+  <!-- source of some files: https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28FULL+KITS%29%2FUNUSUAL+KITS+and+FX%2FAtomhard+Electro+FX%2F -->
+  <!-- and https://www.looperman.com/loops?page=1&cid=1&gid=16&order=date&dir=d -->
+</audioSampleFiles>

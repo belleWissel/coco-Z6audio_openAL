@@ -1,0 +1,42 @@
+﻿                // PROGRAM CONTROL and TOGGLE VISIBILITY OF GRAPHICS
+                case OpenTK.Input.Key.Escape: exitProgram(); break;
+                //case OpenTK.Input.Key.F2: toggle2DdrawingMode(); break;
+                //case OpenTK.Input.Key.F3: toggleFullWindowMode(); break;
+                case OpenTK.Input.Key.Z: toggle2DdrawingMode(); break;
+                case OpenTK.Input.Key.X: toggleFullWindowMode(); break;
+
+                case OpenTK.Input.Key.F: toggleFPSDisplay(); break;
+                case OpenTK.Input.Key.G: toggleGridDisplay(); break;
+                case OpenTK.Input.Key.H: toggleReactiveAreaDisplay(); break;
+                case OpenTK.Input.Key.M: toggleMouseDisplay(); break;
+
+                case OpenTK.Input.Key.P: toggleDepthPointDisplay(); break;
+                case OpenTK.Input.Key.Q: toggleUserSensorGridDisplay(); break;
+                
+                case OpenTK.Input.Key.V: toggleFloorCeilFilterOnTransformedData(); break;
+
+                // SENSOR CALIBRATION
+                case OpenTK.Input.Key.Number1: beginSensorAdjust(0); break;
+                case OpenTK.Input.Key.Number2: beginSensorAdjust(1); break;
+                case OpenTK.Input.Key.Number3: beginSensorAdjust(2); break;
+                case OpenTK.Input.Key.Number4: beginSensorAdjust(3); break;
+
+                case OpenTK.Input.Key.Left: adjustSensorPosnX(true, false); break;
+                case OpenTK.Input.Key.Right: adjustSensorPosnX(false, false); break;
+                case OpenTK.Input.Key.Up: adjustSensorPosnZ(true, false); break;
+                case OpenTK.Input.Key.Down: adjustSensorPosnZ(false, false); break;
+                case OpenTK.Input.Key.Keypad8: adjustSensorPosnY(true, false); break;
+                case OpenTK.Input.Key.Keypad2: adjustSensorPosnY(false, false); break;
+
+                // SENSOR ROLL:
+                case OpenTK.Input.Key.Keypad4: adjustSensorRotZ(true); break;
+                case OpenTK.Input.Key.Keypad6: adjustSensorRotZ(false); break;
+
+                // SENSOR ELEVATION
+                case OpenTK.Input.Key.Keypad9: adjustSensorRotX(true); break;
+                case OpenTK.Input.Key.Keypad3: adjustSensorRotX(false); break;
+
+                // SENSOR YAW
+                case OpenTK.Input.Key.Keypad7: adjustSensorRotY(true); break;
+                case OpenTK.Input.Key.Keypad1: adjustSensorRotY(false); break;
+

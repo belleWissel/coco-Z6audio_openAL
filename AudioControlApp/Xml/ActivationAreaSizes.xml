@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AreaActivationSizes>
+  <NumberOfAreas data="5"/>
+  <AreaStartIndex data="10"/> <!-- allowing multiple programs to send data -->
+  <AreaSizes>
+    <AreaWidthPercentTotalWidth data="0.16" />
+    <AreaBottomPercentTotalHeight data="0.60" />
+    <AreaTopPercentTotalHeight data="0.85" />
+  </AreaSizes>
+  <AreaDepths>
+    <nearRange data="0.35" />
+    <midRange data="0.50" />
+    <farRange data="0.65" />
+  </AreaDepths>
+  <userTimingSettings>
+    <!-- all times are in seconds CAN NOT BE 0-->
+    <reactiveAreasActivation>
+      <triggerNearRegionTime data="0.05" />
+      <triggerMidRegionTime data="0.05" />
+      <triggerFarRegionTime data="0.05" />
+    </reactiveAreasActivation>
+    <reactiveAreasDeactivation>
+      <deactivateNearRegionTime data="0.05" />
+      <deactivateMidRegionTime data="0.05" />
+      <deactivateFarRegionTime data="0.05" />
+    </reactiveAreasDeactivation>
+  </userTimingSettings>
+</AreaActivationSizes>
